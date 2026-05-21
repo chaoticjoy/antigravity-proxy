@@ -319,7 +319,7 @@ struct AntLocationEvidence {
 };
 
 static bool IsCurrentAntigravityMainProcess() {
-    return ToLowerAsciiCopy(GetCurrentProcessBaseName()) == "antigravity.exe";
+    return ToLowerAsciiCopy(GetCurrentProcessBaseName()) == "antigravity ide.exe";
 }
 
 static void CloseSocketCompat(SOCKET s) {
